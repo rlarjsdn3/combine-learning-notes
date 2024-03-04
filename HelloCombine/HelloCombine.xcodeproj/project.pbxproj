@@ -21,6 +21,7 @@
 		9E07CDC62B959DA100729611 /* Empty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Empty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E07CDC72B95A20900729611 /* Fail.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fail.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E07CDC82B95A33900729611 /* Record.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Record.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E07CDC92B95A9C900729611 /* CurrentValueSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CurrentValueSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E1971202B70DB8900B3DC4F /* HelloCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1971232B70DB8900B3DC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1971252B70DB8900B3DC4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9E19713B2B71013600B3DC4F /* PassthroughSubject.playground */,
+				9E07CDC92B95A9C900729611 /* CurrentValueSubject.playground */,
 			);
 			path = Subject;
 			sourceTree = "<group>";
