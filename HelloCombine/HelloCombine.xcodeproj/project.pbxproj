@@ -23,6 +23,8 @@
 		9E07CDC82B95A33900729611 /* Record.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Record.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E07CDC92B95A9C900729611 /* CurrentValueSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CurrentValueSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E07CDCA2B95B53B00729611 /* Sink.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sink.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E07CDCC2B96BD2200729611 /* Publisher+Subscription+Subscriber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Publisher+Subscription+Subscriber.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E07CDCD2B96BD4900729611 /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E1971202B70DB8900B3DC4F /* HelloCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1971232B70DB8900B3DC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1971252B70DB8900B3DC4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E07CDCB2B96BD1900729611 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				9E07CDCD2B96BD4900729611 /* Combine.playground */,
+				9E07CDCC2B96BD2200729611 /* Publisher+Subscription+Subscriber.playground */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
 		9E1971172B70DB8900B3DC4F = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +93,7 @@
 		9E1971372B70DB9000B3DC4F /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				9E07CDCB2B96BD1900729611 /* Basic */,
 				9E1971382B70DB9500B3DC4F /* Publisher */,
 				9E8FEA1C2B723557000F74D5 /* Subscriber */,
 				9E19713A2B71012200B3DC4F /* Subject */,
