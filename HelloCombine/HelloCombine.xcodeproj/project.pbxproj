@@ -42,6 +42,15 @@
 		9EC2FF542B9835E90075B9F3 /* Scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF552B9837580075B9F3 /* TryScan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryScan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF562B983A3C0075B9F3 /* SetFailureType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SetFailureType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF582B983D780075B9F3 /* Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF5B2B983E720075B9F3 /* TryFilter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryFilter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF5C2B983F450075B9F3 /* CompactMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CompactMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF5D2B9841400075B9F3 /* TryCompactMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryCompactMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF5E2B9842CC0075B9F3 /* RemoveDuplicates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RemoveDuplicates.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF5F2B9844690075B9F3 /* TryRemoveDuplicates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryRemoveDuplicates.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF602B98458B0075B9F3 /* ReplaceEmpty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaceEmpty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF612B9848140075B9F3 /* ReplaceNil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaceNil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF622B9848610075B9F3 /* ReplaceError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaceError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,7 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				9EC2FF572B983D6F0075B9F3 /* Filtering */,
 				9E8FEA1F2B72474B000F74D5 /* Mapping */,
 			);
 			path = Operator;
@@ -157,6 +167,22 @@
 				9EC2FF562B983A3C0075B9F3 /* SetFailureType.playground */,
 			);
 			path = Mapping;
+			sourceTree = "<group>";
+		};
+		9EC2FF572B983D6F0075B9F3 /* Filtering */ = {
+			isa = PBXGroup;
+			children = (
+				9EC2FF582B983D780075B9F3 /* Filter.playground */,
+				9EC2FF5B2B983E720075B9F3 /* TryFilter.playground */,
+				9EC2FF5C2B983F450075B9F3 /* CompactMap.playground */,
+				9EC2FF5D2B9841400075B9F3 /* TryCompactMap.playground */,
+				9EC2FF5E2B9842CC0075B9F3 /* RemoveDuplicates.playground */,
+				9EC2FF5F2B9844690075B9F3 /* TryRemoveDuplicates.playground */,
+				9EC2FF602B98458B0075B9F3 /* ReplaceEmpty.playground */,
+				9EC2FF612B9848140075B9F3 /* ReplaceNil.playground */,
+				9EC2FF622B9848610075B9F3 /* ReplaceError.playground */,
+			);
+			path = Filtering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
