@@ -51,6 +51,10 @@
 		9EC2FF602B98458B0075B9F3 /* ReplaceEmpty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaceEmpty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF612B9848140075B9F3 /* ReplaceNil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaceNil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF622B9848610075B9F3 /* ReplaceError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaceError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF642B9886290075B9F3 /* Collect.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Collect.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF652B988C0E0075B9F3 /* IgnoreOutput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IgnoreOutput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF662B988CEC0075B9F3 /* Reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF672B988E840075B9F3 /* TryReduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryReduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				9EC2FF632B9884DE0075B9F3 /* Reducing */,
 				9EC2FF572B983D6F0075B9F3 /* Filtering */,
 				9E8FEA1F2B72474B000F74D5 /* Mapping */,
 			);
@@ -183,6 +188,17 @@
 				9EC2FF622B9848610075B9F3 /* ReplaceError.playground */,
 			);
 			path = Filtering;
+			sourceTree = "<group>";
+		};
+		9EC2FF632B9884DE0075B9F3 /* Reducing */ = {
+			isa = PBXGroup;
+			children = (
+				9EC2FF642B9886290075B9F3 /* Collect.playground */,
+				9EC2FF652B988C0E0075B9F3 /* IgnoreOutput.playground */,
+				9EC2FF662B988CEC0075B9F3 /* Reduce.playground */,
+				9EC2FF672B988E840075B9F3 /* TryReduce.playground */,
+			);
+			path = Reducing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
