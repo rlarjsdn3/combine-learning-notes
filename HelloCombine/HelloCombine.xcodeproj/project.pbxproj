@@ -37,6 +37,11 @@
 		9E19713B2B71013600B3DC4F /* PassthroughSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PassthroughSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E8FEA1D2B72356B000F74D5 /* Assign.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assign.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E8FEA202B724753000F74D5 /* Map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF522B9830880075B9F3 /* TryMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF532B9832910075B9F3 /* MapError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MapError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF542B9835E90075B9F3 /* Scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF552B9837580075B9F3 /* TryScan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryScan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF562B983A3C0075B9F3 /* SetFailureType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SetFailureType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +150,11 @@
 			isa = PBXGroup;
 			children = (
 				9E8FEA202B724753000F74D5 /* Map.playground */,
+				9EC2FF522B9830880075B9F3 /* TryMap.playground */,
+				9EC2FF532B9832910075B9F3 /* MapError.playground */,
+				9EC2FF542B9835E90075B9F3 /* Scan.playground */,
+				9EC2FF552B9837580075B9F3 /* TryScan.playground */,
+				9EC2FF562B983A3C0075B9F3 /* SetFailureType.playground */,
 			);
 			path = Mapping;
 			sourceTree = "<group>";
