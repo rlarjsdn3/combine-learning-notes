@@ -55,6 +55,9 @@
 		9EC2FF652B988C0E0075B9F3 /* IgnoreOutput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IgnoreOutput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF662B988CEC0075B9F3 /* Reduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Reduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF672B988E840075B9F3 /* TryReduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryReduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF6C2B98906B0075B9F3 /* Count.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Count.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF6D2B9891B20075B9F3 /* Comparison.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Comparison.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EC2FF6E2B9893350075B9F3 /* TryComparison.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryComparison.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,7 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				9EC2FF6B2B9890630075B9F3 /* Mathematical */,
 				9EC2FF632B9884DE0075B9F3 /* Reducing */,
 				9EC2FF572B983D6F0075B9F3 /* Filtering */,
 				9E8FEA1F2B72474B000F74D5 /* Mapping */,
@@ -199,6 +203,16 @@
 				9EC2FF672B988E840075B9F3 /* TryReduce.playground */,
 			);
 			path = Reducing;
+			sourceTree = "<group>";
+		};
+		9EC2FF6B2B9890630075B9F3 /* Mathematical */ = {
+			isa = PBXGroup;
+			children = (
+				9EC2FF6C2B98906B0075B9F3 /* Count.playground */,
+				9EC2FF6D2B9891B20075B9F3 /* Comparison.playground */,
+				9EC2FF6E2B9893350075B9F3 /* TryComparison.playground */,
+			);
+			path = Mathematical;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
