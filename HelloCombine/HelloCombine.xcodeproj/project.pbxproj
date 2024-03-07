@@ -51,6 +51,13 @@
 		9EBF8DB02B997C2D004E2BE9 /* PrefixWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrefixWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EBF8DB12B997CA9004E2BE9 /* TryPrefixWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryPrefixWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EBF8DB22B997D39004E2BE9 /* PrefixUntilOutput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrefixUntilOutput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB42B9982F5004E2BE9 /* First.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = First.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB52B99846B004E2BE9 /* FirstWhere.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FirstWhere.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB62B9984C0004E2BE9 /* TryFirstWhere.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryFirstWhere.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB72B998572004E2BE9 /* Last.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Last.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB82B9986E0004E2BE9 /* LastWhere.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LastWhere.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB92B998711004E2BE9 /* TryLastWhere.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryLastWhere.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DBA2B9987E1004E2BE9 /* Output.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Output.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF522B9830880075B9F3 /* TryMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF532B9832910075B9F3 /* MapError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MapError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF542B9835E90075B9F3 /* Scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -171,6 +178,7 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				9EBF8DB32B9982EB004E2BE9 /* Selecting */,
 				9EBF8DA82B996F72004E2BE9 /* Sequencing */,
 				9E9D5EDA2B9965BB00AA4E98 /* Containing */,
 				9EC2FF6B2B9890630075B9F3 /* Mathing */,
@@ -220,6 +228,20 @@
 				9EBF8DB22B997D39004E2BE9 /* PrefixUntilOutput.playground */,
 			);
 			path = Sequencing;
+			sourceTree = "<group>";
+		};
+		9EBF8DB32B9982EB004E2BE9 /* Selecting */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF8DB42B9982F5004E2BE9 /* First.playground */,
+				9EBF8DB52B99846B004E2BE9 /* FirstWhere.playground */,
+				9EBF8DB62B9984C0004E2BE9 /* TryFirstWhere.playground */,
+				9EBF8DB72B998572004E2BE9 /* Last.playground */,
+				9EBF8DB82B9986E0004E2BE9 /* LastWhere.playground */,
+				9EBF8DB92B998711004E2BE9 /* TryLastWhere.playground */,
+				9EBF8DBA2B9987E1004E2BE9 /* Output.playground */,
+			);
+			path = Selecting;
 			sourceTree = "<group>";
 		};
 		9EC2FF572B983D6F0075B9F3 /* Filtering */ = {
