@@ -37,6 +37,20 @@
 		9E19713B2B71013600B3DC4F /* PassthroughSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PassthroughSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E8FEA1D2B72356B000F74D5 /* Assign.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assign.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E8FEA202B724753000F74D5 /* Map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E9D5EDB2B9965CD00AA4E98 /* Contains.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Contains.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E9D5EDC2B99693600AA4E98 /* ContainsWhere.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ContainsWhere.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E9D5EDD2B996A3600AA4E98 /* TryContainsWhere.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryContainsWhere.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E9D5EDE2B996C9F00AA4E98 /* AllSatisfy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AllSatisfy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E9D5EDF2B996DC300AA4E98 /* TryAllSatisfy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryAllSatisfy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DA92B996F89004E2BE9 /* DropUntilOutput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DropUntilOutput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DAA2B997190004E2BE9 /* Drop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Drop.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DAB2B997391004E2BE9 /* DropWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DropWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DAC2B9975AF004E2BE9 /* TryDropWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryDropWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DAE2B9978D0004E2BE9 /* Concatenate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Concatenate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DAF2B997AEE004E2BE9 /* Prefix.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Prefix.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB02B997C2D004E2BE9 /* PrefixWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrefixWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB12B997CA9004E2BE9 /* TryPrefixWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryPrefixWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EBF8DB22B997D39004E2BE9 /* PrefixUntilOutput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrefixUntilOutput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF522B9830880075B9F3 /* TryMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF532B9832910075B9F3 /* MapError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MapError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF542B9835E90075B9F3 /* Scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -157,7 +171,9 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
-				9EC2FF6B2B9890630075B9F3 /* Mathematical */,
+				9EBF8DA82B996F72004E2BE9 /* Sequencing */,
+				9E9D5EDA2B9965BB00AA4E98 /* Containing */,
+				9EC2FF6B2B9890630075B9F3 /* Mathing */,
 				9EC2FF632B9884DE0075B9F3 /* Reducing */,
 				9EC2FF572B983D6F0075B9F3 /* Filtering */,
 				9E8FEA1F2B72474B000F74D5 /* Mapping */,
@@ -176,6 +192,34 @@
 				9EC2FF562B983A3C0075B9F3 /* SetFailureType.playground */,
 			);
 			path = Mapping;
+			sourceTree = "<group>";
+		};
+		9E9D5EDA2B9965BB00AA4E98 /* Containing */ = {
+			isa = PBXGroup;
+			children = (
+				9E9D5EDB2B9965CD00AA4E98 /* Contains.playground */,
+				9E9D5EDC2B99693600AA4E98 /* ContainsWhere.playground */,
+				9E9D5EDD2B996A3600AA4E98 /* TryContainsWhere.playground */,
+				9E9D5EDE2B996C9F00AA4E98 /* AllSatisfy.playground */,
+				9E9D5EDF2B996DC300AA4E98 /* TryAllSatisfy.playground */,
+			);
+			path = Containing;
+			sourceTree = "<group>";
+		};
+		9EBF8DA82B996F72004E2BE9 /* Sequencing */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF8DA92B996F89004E2BE9 /* DropUntilOutput.playground */,
+				9EBF8DAA2B997190004E2BE9 /* Drop.playground */,
+				9EBF8DAB2B997391004E2BE9 /* DropWhile.playground */,
+				9EBF8DAC2B9975AF004E2BE9 /* TryDropWhile.playground */,
+				9EBF8DAE2B9978D0004E2BE9 /* Concatenate.playground */,
+				9EBF8DAF2B997AEE004E2BE9 /* Prefix.playground */,
+				9EBF8DB02B997C2D004E2BE9 /* PrefixWhile.playground */,
+				9EBF8DB12B997CA9004E2BE9 /* TryPrefixWhile.playground */,
+				9EBF8DB22B997D39004E2BE9 /* PrefixUntilOutput.playground */,
+			);
+			path = Sequencing;
 			sourceTree = "<group>";
 		};
 		9EC2FF572B983D6F0075B9F3 /* Filtering */ = {
@@ -205,14 +249,14 @@
 			path = Reducing;
 			sourceTree = "<group>";
 		};
-		9EC2FF6B2B9890630075B9F3 /* Mathematical */ = {
+		9EC2FF6B2B9890630075B9F3 /* Mathing */ = {
 			isa = PBXGroup;
 			children = (
 				9EC2FF6C2B98906B0075B9F3 /* Count.playground */,
 				9EC2FF6D2B9891B20075B9F3 /* Comparison.playground */,
 				9EC2FF6E2B9893350075B9F3 /* TryComparison.playground */,
 			);
-			path = Mathematical;
+			path = Mathing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
