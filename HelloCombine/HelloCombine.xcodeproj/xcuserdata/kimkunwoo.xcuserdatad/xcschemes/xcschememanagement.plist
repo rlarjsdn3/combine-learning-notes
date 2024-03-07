@@ -786,6 +786,27 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Multicast (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>69</integer>
+		</dict>
+		<key>Multicast (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>70</integer>
+		</dict>
+		<key>Multicast (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
 		<key>Operator (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1114,6 +1135,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>48</integer>
+		</dict>
+		<key>Share (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>72</integer>
+		</dict>
+		<key>Share (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
+		<key>Share (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>71</integer>
 		</dict>
 		<key>Sink (Playground) 1.xcscheme</key>
 		<dict>
