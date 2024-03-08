@@ -47,6 +47,8 @@
 		9EB009562B99CB9B00611846 /* Timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EB009582B99D52F00611846 /* Multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EB009592B99DC4600611846 /* Share.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Share.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EB0095B2B9AA47900611846 /* Encode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Encode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EB0095C2B9AA68B00611846 /* Decode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Decode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EBF8DA92B996F89004E2BE9 /* DropUntilOutput.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DropUntilOutput.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EBF8DAA2B997190004E2BE9 /* Drop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Drop.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EBF8DAB2B997391004E2BE9 /* DropWhile.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DropWhile.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				9EBF8DBB2B998AC4004E2BE9 /* Operator.playground */,
+				9EB0095A2B9AA46700611846 /* Encoding */,
 				9EB009572B99D52500611846 /* Sharing */,
 				9EBF8DBC2B99BF2C004E2BE9 /* Timing */,
 				9EBF8DB32B9982EB004E2BE9 /* Selecting */,
@@ -232,6 +235,15 @@
 				9EB009592B99DC4600611846 /* Share.playground */,
 			);
 			path = Sharing;
+			sourceTree = "<group>";
+		};
+		9EB0095A2B9AA46700611846 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				9EB0095B2B9AA47900611846 /* Encode.playground */,
+				9EB0095C2B9AA68B00611846 /* Decode.playground */,
+			);
+			path = Encoding;
 			sourceTree = "<group>";
 		};
 		9EBF8DA82B996F72004E2BE9 /* Sequencing */ = {
