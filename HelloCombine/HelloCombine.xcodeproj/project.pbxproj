@@ -35,6 +35,9 @@
 		9E1971312B70DB8B00B3DC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E1971392B70DBA400B3DC4F /* Just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E19713B2B71013600B3DC4F /* PassthroughSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PassthroughSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E1D3B0F2B9AB154004FBC9A /* CombineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E1D3B102B9AB36F004FBC9A /* Merge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Merge.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9E1D3B112B9AB572004FBC9A /* Zip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Zip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E8FEA1D2B72356B000F74D5 /* Assign.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assign.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E8FEA202B724753000F74D5 /* Map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9E9D5EDB2B9965CD00AA4E98 /* Contains.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Contains.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -176,6 +179,16 @@
 			path = Subject;
 			sourceTree = "<group>";
 		};
+		9E1D3B0E2B9AB149004FBC9A /* Combining */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D3B0F2B9AB154004FBC9A /* CombineLatest.playground */,
+				9E1D3B102B9AB36F004FBC9A /* Merge.playground */,
+				9E1D3B112B9AB572004FBC9A /* Zip.playground */,
+			);
+			path = Combining;
+			sourceTree = "<group>";
+		};
 		9E8FEA1C2B723557000F74D5 /* Subscriber */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +201,7 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				9E1D3B0E2B9AB149004FBC9A /* Combining */,
 				9EBF8DBB2B998AC4004E2BE9 /* Operator.playground */,
 				9EB0095A2B9AA46700611846 /* Encoding */,
 				9EB009572B99D52500611846 /* Sharing */,
