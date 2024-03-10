@@ -26,3 +26,5 @@ Array(1...100).publisher
         print(value)
     }
     .store(in: &cancellable)
+
+//: RxSwift와 유사한 개념: Filter

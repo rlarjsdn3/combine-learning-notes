@@ -20,3 +20,6 @@ Timer.publish(every: 3.0, on: .main, in: .default)
 // Debounce vs. Throttle
 // Debounce: 항목을 더 이상 전달받지 않으면 일정 시간이 경과한 후 마지막으로 전달받은 항목을 방출합니다.
 // Throttle: 일정 시간이 경과한 후 첫 번째나 마지막으로 전달받은 항목을 방출합니다.
+
+
+//: RxSwift와 유사한 개념: Throttle

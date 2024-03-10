@@ -27,4 +27,4 @@ enum CombineError: Error {
     }
     .store(in: &cancellable)
 
-
+//: RxSwift와 유사한 개념: TakeWhile

@@ -30,3 +30,5 @@ postsPublisher
         print("Stream 2 Received: \(value)")
     }
     .store(in: &cancellable)
+
+//: RxSwift와 유사한 개념: Publish, Replay, RefCount, Share

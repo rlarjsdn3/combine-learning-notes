@@ -22,3 +22,5 @@ subject
 DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(WAIT_TIME)) {
     subject.send("Some data - sent after a delay of \(WAIT_TIME)")
 }
+
+//: RxSwift와 유사한 개념: Timeout

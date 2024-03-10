@@ -24,3 +24,5 @@ upstream.send(30)
 upstream.send(40)
 
 upstream.send(completion: .finished)
+
+//: RxSwift와 유사한 개념: SkipUntil

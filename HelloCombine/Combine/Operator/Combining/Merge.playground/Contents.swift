@@ -27,3 +27,5 @@ subject3.send(100)
 subject1.send(completion: .finished)
 subject2.send(completion: .finished)
 subject3.send(completion: .finished)
+
+//: RxSwift와 유사한 개념: Merge

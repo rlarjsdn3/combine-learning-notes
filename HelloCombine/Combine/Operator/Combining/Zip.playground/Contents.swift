@@ -30,3 +30,5 @@ subject2.send("Four")
 
 subject1.send(completion: .finished)
 subject2.send(completion: .finished)
+
+//: RxSwift와 유사한 개념: Zip

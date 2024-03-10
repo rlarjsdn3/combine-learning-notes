@@ -201,8 +201,8 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
-				9E1D3B0E2B9AB149004FBC9A /* Combining */,
 				9EBF8DBB2B998AC4004E2BE9 /* Operator.playground */,
+				9E1D3B0E2B9AB149004FBC9A /* Combining */,
 				9EB0095A2B9AA46700611846 /* Encoding */,
 				9EB009572B99D52500611846 /* Sharing */,
 				9EBF8DBC2B99BF2C004E2BE9 /* Timing */,

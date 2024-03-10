@@ -28,3 +28,4 @@ enum CombineError: Error {
         print(value)
     }
 
+//: RxSwift와 유사한 개념:Map

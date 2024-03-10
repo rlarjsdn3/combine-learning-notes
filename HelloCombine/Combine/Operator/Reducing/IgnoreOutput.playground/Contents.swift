@@ -15,3 +15,4 @@ Array(1...100).publisher
     }
     .store(in: &cancellable)
 
+//: RxSwift와 유사한 개념: ignoreElements

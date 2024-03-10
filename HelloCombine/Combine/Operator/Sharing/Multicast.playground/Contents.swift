@@ -62,3 +62,6 @@ multicast2Publisher
 multicast2Publisher.connect()
 
 // In contrast with ``Publisher/multicast(subject:)``, this method produces a publisher that creates a separate ``Subject`` for each subscriber.
+
+
+//: RxSwift와 유사한 개념: Multicast

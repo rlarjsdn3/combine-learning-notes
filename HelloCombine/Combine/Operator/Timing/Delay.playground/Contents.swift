@@ -21,3 +21,5 @@ Timer.publish(every: 1.0, on: .main, in: .default)
         print("At \(df.string(from: now)) received Timestamps \'\(df.string(from: value))\' sent: \(String(format: "%2.f", now.timeIntervalSince(value))) secs ago", terminator: "\n")
     }
     .store(in: &cancellable)
+
+//: RxSwift와 유사한 개념: Delay, DelaySubscription

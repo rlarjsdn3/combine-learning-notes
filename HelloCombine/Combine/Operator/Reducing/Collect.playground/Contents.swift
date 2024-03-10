@@ -33,3 +33,5 @@ timerPublisher
     }
     .store(in: &cancellable)
 timerPublisher.connect()
+
+//: RxSwift와 유사한 개념: ToArray, Buffer

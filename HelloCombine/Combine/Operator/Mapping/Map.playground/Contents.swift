@@ -32,3 +32,5 @@ subject
 
 subject.send(.init(width: 250, height: 250))
 subject.send(.init(width: 500, height: 100))
+
+//: RxSwift와 유사한 개념: Map
