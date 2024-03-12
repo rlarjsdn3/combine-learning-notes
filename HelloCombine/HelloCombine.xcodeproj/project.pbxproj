@@ -92,6 +92,8 @@
 		9EC2FF6C2B98906B0075B9F3 /* Count.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Count.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF6D2B9891B20075B9F3 /* Comparison.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Comparison.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9EC2FF6E2B9893350075B9F3 /* TryComparison.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TryComparison.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EFD96D92BA0165B00305C66 /* FlatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FlatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9EFD96DA2BA01E7300305C66 /* SwitchToLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwitchToLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 		9E8FEA1E2B7243B1000F74D5 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				9EFD96D62BA0164500305C66 /* Republishing */,
 				9EBF8DBB2B998AC4004E2BE9 /* Operator.playground */,
 				9E1D3B0E2B9AB149004FBC9A /* Combining */,
 				9EB0095A2B9AA46700611846 /* Encoding */,
@@ -337,6 +340,15 @@
 				9EC2FF6E2B9893350075B9F3 /* TryComparison.playground */,
 			);
 			path = Mathing;
+			sourceTree = "<group>";
+		};
+		9EFD96D62BA0164500305C66 /* Republishing */ = {
+			isa = PBXGroup;
+			children = (
+				9EFD96D92BA0165B00305C66 /* FlatMap.playground */,
+				9EFD96DA2BA01E7300305C66 /* SwitchToLatest.playground */,
+			);
+			path = Republishing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
